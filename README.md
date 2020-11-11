@@ -21,6 +21,6 @@ In the US, successful Theater campaigns tend to have a lower goal than failed ca
 * Both successful and failed campaigns are skewed left, meaning there are a large number of small campaigns.
 ---
 When launching a Kickstarter campaign in the US, we recommend
-1 Launch a theater campaign in particular a play, which tends to be successful.
-2 Time your campaign to coincide with the summer months specifically May is a good month to launch your campaign.
-3 Set a goal that will meet your funding needs, but we recommend not exceeding a goal of $5,000.
+1. Launch a theater campaign in particular a play, which tends to be successful.
+2. Time your campaign to coincide with the summer months specifically May is a good month to launch your campaign.
+3. Set a goal that will meet your funding needs, but we recommend not exceeding a goal of $5,000.
