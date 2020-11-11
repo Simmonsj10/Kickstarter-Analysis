@@ -8,15 +8,15 @@ Theater Kickstarter Campaigns in the US succeed more often than they fail. Addit
 * Over 57% of Theater Kickstarter campaigns are have been successfully funded.
 * Less than 39% of Theater Kickstarter campaigns have failed
 * Over 61% of US Play outcomes are successfully funded and are a leading campaign subcategory.
-![US_Theater_Kickstarter_Campaign_Outcomes.png](Simmonsj10/Kickstarter-Analysis/US_Theater_Kickstarter_Campaign_Outcomes.png)
-![US_PlayOutcomes.png](Simmonsj10/Kickstarter-Analysis/US_PlayOutcomes.png)
+![US_Theater_Kickstarter_Campaign_Outcomes.png](github.com/Simmonsj10/Kickstarter-Analysis/US_Theater_Kickstarter_Campaign_Outcomes.png)
+![US_PlayOutcomes.png](github.com/Simmonsj10/Kickstarter-Analysis/US_PlayOutcomes.png)
 
 ---
 ## Finding 2: Theater Campaigns exhibit seasonality
 The data shows that US Theater campaigns launched in May have a high likelihood of success compared to any other month and campaigns launched in December have the lowest likelihood of success.
 * 65 of 96 US Theater Campaigns launched in May were successful
 * 27 of 56 US Theater Campaigns launched in December were successful
-![Seasonal_US_Theater_Campaign_vF.png](Simmonsj10/Kickstarter-Analysis/Seasonal_US_Theater_Campaign_vF.png)
+![Seasonal_US_Theater_Campaign_vF.png](github.com/Simmonsj10/Kickstarter-Analysis/Seasonal_US_Theater_Campaign_vF.png)
 
 ---
 ## Finding 3: Low fund raising goals are optimal
