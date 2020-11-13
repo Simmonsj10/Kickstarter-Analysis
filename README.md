@@ -1,34 +1,47 @@
-# Kickstarter Campaign Analysis
-Performing analysis on Kickstarter data to uncover trends for Louise
+# Kickstarter Campaign Analysis Challenge Assignment
+Author: Jerome Simmons
 
-We recommend Louise launch a theater campaign in May with a funding goal of $5,000. Below you will find a detailed report of our findings and recommendations.
----
-## Finding 1: Theater Kickstarter Campaigns are a good bet
-Theater Kickstarter Campaigns in the US succeed more often than they fail. Additionally, Play campaigns in the US have an even higher likelihood of success.
-* Over 57% of Theater Kickstarter campaigns are have been successfully funded.
-* Less than 39% of Theater Kickstarter campaigns have failed
-* Over 61% of US Play outcomes are successfully funded and are a leading campaign subcategory.
-![US_Theater_Kickstarter_Campaign_Outcomes.png](github.com/Simmonsj10/Kickstarter-Analysis/US_Theater_Kickstarter_Campaign_Outcomes.png)
-![US_PlayOutcomes.png](github.com/Simmonsj10/Kickstarter-Analysis/US_PlayOutcomes.png)
+## Overview of Project
+Louise is raising funds for a theater production. Her recent Kickstarter campaign was unsuccessful, so Louise needs to understand past campaign trends to revise and launch a successful campaign.
 
----
-## Finding 2: Theater Campaigns exhibit seasonality
-The data shows that US Theater campaigns launched in May have a high likelihood of success compared to any other month and campaigns launched in December have the lowest likelihood of success.
-* 65 of 96 US Theater Campaigns launched in May were successful
-* 27 of 56 US Theater Campaigns launched in December were successful
-![Seasonal_US_Theater_Campaign_vF.png](github.com/Simmonsj10/Kickstarter-Analysis/Seasonal_US_Theater_Campaign_vF.png)
+## Purpose
+We will analyze previous Kickstarter campaign outcomes in order to inform future campaign fundraising strategy.
 
----
-## Finding 3: Low fund raising goals are optimal
-In the US, successful Theater campaigns tend to have a lower goal than failed campaigns.
-* Mean goal of successful campaigns is $5,049 compared to $10,554 for failed campaigns.
-* Median goal of successful campaigns is $3,000 compared to $5,000 for failed campaigns.
-* Both successful and failed campaigns are skewed left, meaning there are a large number of small campaigns.
-![111120_KickstarterAnalysis_JS.xlxs](Simmonsj10/Kickstarter-Analysis/111120_KickstarterAnalysis_JS.xlxs]
+## Analysis and Challenges
+The Kickstarter data set contains historical outcomes, which are not indicative of future performance. We lack qualitative insights and campaign strategies that may enhance campaign outcomes.
 
----
-## Recommendations
-When launching a Kickstarter campaign in the US, we recommend
-1. Launch a theater campaign in particular a play, which tends to be successful.
-2. Time your campaign to coincide with the summer months specifically May is a good month to launch your campaign.
-3. Set a goal that will meet your funding needs, but we recommend not exceeding a goal of $5,000.
+### Analysis of Outcomes Based on Launch Date
+Theater campaigns tend to be successful, but campaign performance varies significantly by year.
+* Overall, 61% of Theater campaigns were successful and 36% of Theater campaigns failed.
+* All theater campaigns launched between 2011 and 2013 were successful, albeit limited in number (23 of 1369 observations)
+
+Campaign success follows clear seasonal patterns. Theater campaigns launched in May have the highest likelihood of success compared to any other month and campaigns launched in December have the lowest likelihood of success.
+* Over 66% of Theater campaigns (111/166) launched in May were successful.
+* 49% of Theater campaigns (37/75) launched in December were successful and 47% failed.
+
+[!Theater_Outcomes_vs_Launch.png](Theater_Outcomes_vs_Launch.png)
+
+### Analysis of Outcomes Based on Goals
+The majority of plays set a fundraising goal below $4,999. In general, the fund raising goal and likelihood of success are negatively correlated. While there are a few projects that raised between $35,000 and $44,999 and succeeded 67% of the time, these projects represent a very small sample size.
+* 75% of plays that raised less than $1,000 were successful and 25% failed.
+* 73% of plays that raised between $1,000 and $4,999 were successful and 27% failed.
+* Less than 13% of plays with a fund raising goal above $45,000 were successful and over 88% failed to reach their goal.
+
+[!Outcomes_vs_Goals.png](Outcomes_vs_Goals.png)
+
+### Challenges and Difficulties Encountered
+The data set offers limited information on who donated and why someone donated to a particular campaign. Our analysis platform (excel) is insufficient to perform text analysis, which limits our ability to draw key insights. 
+
+## Results
+Based on the analysis above, we have three recommendations:
+1. Theater campaigns are a good space to run a fund raising campaign as they succeed more often than not.
+2. Theater campaigns are most likely to succeed if launched in May.
+3. Among plays, low fund raising goals are more likely to succeed. 
+
+### Limitations of the dataset
+While these recommendations align well with the analysis above, past performance is not indicative of future results. There may be other unforeseen factors that contribute to the success or failure of a fund raising campaign such as fund raiser awareness and reach. It is also possible that campaign description may impact the outcome. Overall, our data set provides very few signals on what prompted donors to pledge money toward a particular campaign.
+
+### Additional Analysis
+For additional analysis, we would recommend 
+1. comparing Average Donation size and number of backers across successful and failed campaigns in order to understand the importance of audience composition on a campaign outcome.
+2. analyzing text for keywords, number of words, parts of speech, or other signals that indicate a poorly or well-written description that may drive a campaign to succeed or fail.
