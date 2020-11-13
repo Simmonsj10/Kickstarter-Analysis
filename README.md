@@ -19,7 +19,8 @@ Campaign success follows clear seasonal patterns. Theater campaigns launched in 
 * Over 66% of Theater campaigns (111/166) launched in May were successful.
 * 49% of Theater campaigns (37/75) launched in December were successful and 47% failed.
 
-[!Theater_Outcomes_vs_Launch.png](Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch.png](Theater_Outcomes_vs_Launch.png)
+
 
 ### Analysis of Outcomes Based on Goals
 The majority of plays set a fundraising goal below $4,999. In general, the fund raising goal and likelihood of success are negatively correlated. While there are a few projects that raised between $35,000 and $44,999 and succeeded 67% of the time, these projects represent a very small sample size.
@@ -27,7 +28,8 @@ The majority of plays set a fundraising goal below $4,999. In general, the fund 
 * 73% of plays that raised between $1,000 and $4,999 were successful and 27% failed.
 * Less than 13% of plays with a fund raising goal above $45,000 were successful and over 88% failed to reach their goal.
 
-[!Outcomes_vs_Goals.png](Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals.png](Outcomes_vs_Goals.png)
+
 
 ### Challenges and Difficulties Encountered
 The data set offers limited information on who donated and why someone donated to a particular campaign. Our analysis platform (excel) is insufficient to perform text analysis, which limits our ability to draw key insights. 
