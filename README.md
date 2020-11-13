@@ -8,7 +8,7 @@ Louise is raising funds for a theater production. Her recent Kickstarter campaig
 We will analyze previous Kickstarter campaign outcomes in order to inform future campaign fundraising strategy.
 
 ## Analysis and Challenges
-The Kickstarter data set contains historical outcomes, which are not indicative of future performance. We lack qualitative insights and campaign strategies that may enhance campaign outcomes.
+In the sections below we provide an analysis of Kickstarter Campaign data. We have focused our analysis to understand campaign outcomes based on launch date and outcome based on fundraising goals.
 
 ### Analysis of Outcomes Based on Launch Date
 Theater campaigns tend to be successful, but campaign performance varies significantly by year.
@@ -32,13 +32,13 @@ The majority of plays set a fundraising goal below $4,999. In general, the fund 
 
 
 ### Challenges and Difficulties Encountered
-The data set offers limited information on who donated and why someone donated to a particular campaign. Our analysis platform (excel) is insufficient to perform text analysis, which limits our ability to draw key insights. 
+The Kickstarter data set contains historical outcomes, which are not indicative of future performance. We lack qualitative insights and campaign strategies that may enhance campaign outcomes. The data set offers limited information on who donated and why someone donated to a particular campaign. Our analysis platform (excel) is insufficient to perform text analysis, which limits our ability to draw key insights. 
 
 ## Results
 Based on the analysis above, we have three recommendations:
-1. Theater campaigns are a good space to run a fund raising campaign as they succeed more often than not.
-2. Theater campaigns are most likely to succeed if launched in May.
-3. Among plays, low fund raising goals are more likely to succeed. 
+1. Run a Theater campaigns. These fund raising campaigns succeed more often than not.
+2. Run a Theater campaigns in May and avoid running a campaign in December. Campaigns are most likely to succeed if launched in May and least likely to succeed if launched in December.
+3. Set fund raising goals below $5,000. These campaigns more likely to succeed than large fund raising goals (+$20,000). 
 
 ### Limitations of the dataset
 While these recommendations align well with the analysis above, past performance is not indicative of future results. There may be other unforeseen factors that contribute to the success or failure of a fund raising campaign such as fund raiser awareness and reach. It is also possible that campaign description may impact the outcome. Overall, our data set provides very few signals on what prompted donors to pledge money toward a particular campaign.
